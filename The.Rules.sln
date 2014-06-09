@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{51
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The.Rules.CustomDescriber", "The.Rules.CustomDescriber\The.Rules.CustomDescriber.csproj", "{90D505CF-8273-4855-AA92-D7D5526F821A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The.Rules.Examples", "The.Rules.Examples\The.Rules.Examples.csproj", "{EB79FB11-5663-46CE-83D0-60E85DB28864}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The.Rules", "The.Rules\The.Rules.csproj", "{FE3DA208-8573-477E-8C34-D4DF737ACE5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The.Rules.Tests", "The.Rules.Tests\The.Rules.Tests.csproj", "{A44C25F5-5033-4C5A-A82D-8C3B86A47010}"
@@ -28,10 +26,6 @@ Global
 		{90D505CF-8273-4855-AA92-D7D5526F821A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D505CF-8273-4855-AA92-D7D5526F821A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D505CF-8273-4855-AA92-D7D5526F821A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB79FB11-5663-46CE-83D0-60E85DB28864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB79FB11-5663-46CE-83D0-60E85DB28864}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB79FB11-5663-46CE-83D0-60E85DB28864}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB79FB11-5663-46CE-83D0-60E85DB28864}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE3DA208-8573-477E-8C34-D4DF737ACE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE3DA208-8573-477E-8C34-D4DF737ACE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE3DA208-8573-477E-8C34-D4DF737ACE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,6 +40,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{90D505CF-8273-4855-AA92-D7D5526F821A} = {516FD7CB-B8E8-439F-A394-7D3A816A8AE8}
-		{EB79FB11-5663-46CE-83D0-60E85DB28864} = {516FD7CB-B8E8-439F-A394-7D3A816A8AE8}
 	EndGlobalSection
 EndGlobal
