@@ -64,5 +64,15 @@ namespace The.Rules.Tests
             Assert.That(aRuleThatIsFalse.Implies(aRuleThatIsFalse).IsTrueFor(new AnyClass(), new AnyOtherClass()));
         }
 
+        [Test]
+        public void RulesCanBeCombinedUsingThePreventsOperator()
+        {
+            Assert.That(aRuleThatIsTrue.Prevents(aRuleThatIsTrue).IsFalseFor(new AnyClass(), new AnyOtherClass()));
+            Assert.That(aRuleThatIsTrue.Prevents(aRuleThatIsFalse).IsTrueFor(new AnyClass(), new AnyOtherClass()));
+            Assert.That(aRuleThatIsFalse.Prevents(aRuleThatIsTrue).IsTrueFor(new AnyClass(), new AnyOtherClass()));
+            Assert.That(aRuleThatIsFalse.Prevents(aRuleThatIsFalse).IsTrueFor(new AnyClass(), new AnyOtherClass()));
+        }
+
+
     }
 }

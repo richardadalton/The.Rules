@@ -52,10 +52,10 @@ namespace The.Rules
             return new ImpliesRule<T1, T2>(this, otherRule);
         }
 
-        //public PreventsRule<T> Prevents(ARuleAbout<T> otherRule)
-        //{
-        //    return new PreventsRule<T>(this, otherRule);
-        //}
+        public PreventsRule<T1, T2> Prevents(ARuleAbout<T1, T2> otherRule)
+        {
+            return new PreventsRule<T1, T2>(this, otherRule);
+        }
 
         //public NotRule<T> Not()
         //{
