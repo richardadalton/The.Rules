@@ -73,6 +73,11 @@ namespace The.Rules.Tests
             Assert.That(aRuleThatIsFalse.Prevents(aRuleThatIsFalse).IsTrueFor(new AnyClass(), new AnyOtherClass()));
         }
 
-
+        [Test]
+        public void ARuleCanBeNegatedUsingTheNotOperator()
+        {
+            Assert.That(aRuleThatIsTrue.Not().IsFalseFor(new AnyClass(), new AnyOtherClass()));
+            Assert.That(aRuleThatIsFalse.Not().IsTrueFor(new AnyClass(), new AnyOtherClass()));
+        }
     }
 }

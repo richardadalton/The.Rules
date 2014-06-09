@@ -37,6 +37,7 @@
     <Compile Include="ARuleAboutT1T2.cs" />
     <Compile Include="DescribeRules\AbstractRuleDescriber.cs" />
     <Compile Include="Operators\T1T2\T1T2ImpliesT1T2.cs" />
+    <Compile Include="Operators\T1T2\T1T2Not.cs" />
     <Compile Include="Operators\T1T2\T1T2PreventsT1T2.cs" />
     <Compile Include="Operators\T\TAndT.cs" />
     <Compile Include="ARuleAboutT.cs" />

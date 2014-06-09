@@ -57,9 +57,9 @@ namespace The.Rules
             return new PreventsRule<T1, T2>(this, otherRule);
         }
 
-        //public NotRule<T> Not()
-        //{
-        //    return new NotRule<T>(this);
-        //}
+        public NotRule<T1, T2> Not()
+        {
+            return new NotRule<T1, T2>(this);
+        }
     }
 }
