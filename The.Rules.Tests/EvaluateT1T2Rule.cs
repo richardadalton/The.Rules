@@ -3,7 +3,7 @@ using The.Rules.Tests.Mocks;
 
 namespace The.Rules.Tests
 {
-    public class EvaluateMultiTypeRule
+    public class EvaluateT1T2Rule
     {
         ARuleAbout<AnyClass, AnyOtherClass> aRuleThatIsTrue;
         ARuleAbout<AnyClass, AnyOtherClass> aRuleThatIsFalse;

@@ -39,7 +39,7 @@
   <ItemGroup>
     <Compile Include="DescribeRules\VerboseRuleDescriber.cs" />
     <Compile Include="DescribeRules\VerboseEvaluatingRuleDescriber.cs" />
-    <Compile Include="EvaluateMultiTypeRule.cs" />
+    <Compile Include="EvaluateT1T2Rule.cs" />
     <Compile Include="Mocks\AnyClass.cs" />
     <Compile Include="EvaluateRules.cs" />
     <Compile Include="Mocks\AnyOtherClass.cs" />
